@@ -3,13 +3,13 @@ import { useState, type ReactNode } from "react";
 
 export function Field({ label, hint, children }: { label: string; hint?: string; children: ReactNode }) {
   return (
-    <label className="block">
+    <div className="block">
       <span className="mb-1.5 flex items-baseline justify-between text-sm font-medium">
         {label}
         {hint && <span className="text-xs font-normal text-muted-foreground">{hint}</span>}
       </span>
       {children}
-    </label>
+    </div>
   );
 }
 
