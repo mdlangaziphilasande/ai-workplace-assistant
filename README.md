@@ -1,80 +1,113 @@
-# AI Productivity Pal
 
-AI Workplace Productivity Assistant
+# AI Workplace Productivity Assistant
 
-Build a modern, responsive SaaS web application called AI Workplace Productivity Assistant that helps professionals improve workplace productivity using AI.
+## 1. Project Overview
 
-Core Features
+The AI Workplace Productivity Assistant is a modern, responsive web application designed to help professionals improve workplace productivity using artificial intelligence.
 
-Smart Email Generator
+The application provides AI-powered tools for generating professional emails, planning daily or weekly tasks, and researching topics or online articles.
 
-Generate professional emails based on user instructions.
+It features a clean SaaS-style dashboard with a light blue, purple, and white color scheme.
 
-Support Formal, Friendly, and Persuasive tones.
+The project is designed as a frontend-only application that does not permanently store user inputs or AI-generated outputs.
 
-Allow users to edit and copy generated emails.
+## 2. Features Implemented
 
-AI Task Planner
+### Smart Email Generator
+- Generate professional emails based on user instructions.
+- Support Formal, Friendly, and Persuasive tones.
+- Edit and copy AI-generated emails.
 
-Generate daily or weekly schedules.
+### AI Task Planner
+- Generate personalized daily or weekly schedules.
+- Prioritize tasks based on deadlines, importance, and workload.
+- Provide AI-generated planning recommendations.
 
-Prioritize tasks based on deadlines, importance, and workload.
+### AI Research Assistant
+- Summarize topics, pasted articles, and website URLs.
+- Generate relevant insights and recommendations.
+- Provide actionable takeaways based on research results.
 
-Provide personalized, actionable planning recommendations.
+### Dashboard and User Experience
+- Modern dashboard with sidebar navigation.
+- Responsive design for desktop, tablets, and mobile devices.
+- Editable AI-generated content.
+- Loading states and copy-to-clipboard functionality.
+- Responsible AI disclaimer.
 
-AI Research Assistant
+## 3. Technologies and Tools Used
 
-Summarize topics, pasted articles, and website URLs.
+The following technologies and tools are intended for the project:
 
-Provide relevant insights, recommendations, and actionable takeaways.
+- **Lovable:** AI-powered application development platform.
+- **React:** Frontend user interface development.
+- **TypeScript:** Type-safe application development.
+- **Tailwind CSS:** Responsive styling and layout.
+- **Lucide React:** Icons and interface elements.
+- **AI API:** Generates personalized emails, task plans, summaries, insights, and recommendations.
 
-Design & User Experience
+*Note: Update this section to reflect the actual technologies and AI provider used in your implementation.*
 
-Create a clean, professional dashboard with sidebar navigation.
+## 4. Setup Instructions
 
-Use a light blue, purple, and white color palette with modern SaaS styling.
+### Prerequisites
+- Node.js and npm installed.
+- A code editor such as Visual Studio Code.
+- Access to the project source code.
 
-Ensure responsiveness across desktop, tablets, and mobile devices.
+### Installation
 
-Include structured AI prompts, clear input forms, and editable AI-generated outputs.
+1. Clone or download the project repository.
 
-Add loading states, copy-to-clipboard buttons, and an intuitive user experience.
+2. Open the project folder in your terminal.
 
-Include a responsible AI disclaimer explaining that AI-generated content may contain errors and should be reviewed.
+3. Install the dependencies:
 
-Technical Requirements
+   ```bash
+   npm install
+   ```
 
-Build a frontend-only application with no backend, database, or authentication.
+4. Start the development server:
 
-Do not permanently save user inputs or AI-generated outputs. Keep all data temporary and clear it when the application is refreshed or closed.
+   ```bash
+   npm run dev
+   ```
 
-All responses, summaries, emails, schedules, insights, and recommendations must be genuinely AI-generated and tailored to the user's specific inputs. Do not use generic, hardcoded, or mock responses.
+5. Open the local URL displayed in your terminal to access the application.
 
-Integrate an AI service to power all three tools, including URL-based research.
+### AI Configuration
 
-Build efficiently within my limited Lovable credits (6-7). Prioritize essential features, reuse components, and avoid unnecessary complexity.
+Configure the required AI service and API credentials according to the provider's documentation.
 
-Keep the application lightweight, functional, and easy to customize.
+For a frontend-only application, use an appropriate secure AI integration method. Do not expose private API keys in publicly accessible frontend code.
 
-Goal: Deliver a polished, interactive AI productivity assistant MVP with personalized AI functionality and a professional SaaS dashboard.
+If an AI service is not configured, AI-powered features will not generate live responses.
 
-This project was built with [Lovable](https://lovable.dev).
+## 5. Data Privacy
 
-## Build with Lovable
+- No backend or database is used for permanent data storage.
+- User inputs and AI-generated outputs are temporary.
+- Data should not be saved permanently or retained after the application is refreshed or closed.
+- Users should review AI-generated content before using it professionally.
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/517ff3d6-f8c2-4888-902d-ea26bc13011f).
+## 6. Team Members
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+| Name | Role |
+|---|---|
+| [Philasande Mdlangazi] | Frontend Development |
+| [Philasande Mdlangazi] | UI/UX Design |
+| [Philasande Mdlangazi] | AI Integration |
 
-## Development
+*Remove this section or update the table if the project is developed individually.*
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+## 7. Author
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+**Name:** [Philasande Mdlangazi]
+
+**Project:** AI Workplace Productivity Assistant
+
+## 8. License
+
+This project is intended for educational and demonstration purposes.
+
+Add an appropriate open-source license if you plan to distribute the project publicly.
